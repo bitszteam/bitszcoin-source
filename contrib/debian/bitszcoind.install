@@ -1,0 +1,3 @@
+usr/local/bin/bitszcoind usr/bin
+usr/local/bin/bitszcoin-cli usr/bin
+debian/examples/bitszcoin.conf etc/bitszcoin

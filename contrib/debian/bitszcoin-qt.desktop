@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Bitszcoin Core
+Comment=Bitszcoin P2P Cryptocurrency
+Comment[fr]=Bitszcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bitszcoin, eşten eşe kriptografik sanal para birimi
+Exec=bitszcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitszcoin128
+MimeType=x-scheme-handler/bitszcoin;
+Categories=Office;Finance;
+StartupWMClass=Bitszcoin-qt

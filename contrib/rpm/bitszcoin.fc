@@ -1,0 +1,8 @@
+/usr/bin/bitszcoin-cli		--	gen_context(system_u:object_r:bitszcoin_exec_t,s0)
+/usr/sbin/bitszcoind		--	gen_context(system_u:object_r:bitszcoin_exec_t,s0)
+/usr/lib(64)?/bitszcoin/bitszcoind		--	gen_context(system_u:object_r:bitszcoin_exec_t,s0)
+
+/etc/bitszcoin(/.*)?		gen_context(system_u:object_r:bitszcoin_conf_t,s0)
+/var/lib/bitszcoin(/.*)?		gen_context(system_u:object_r:bitszcoin_var_lib_t,s0)
+
+(/var)?/run/bitszcoind(/.*)?   gen_context(system_u:object_r:bitszcoin_var_run_t,s0)
